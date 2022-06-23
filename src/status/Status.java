@@ -15,6 +15,7 @@ import java.util.Scanner;
  * change the code to use enums which avoids String input 
  * then print the status details. 
  * @author srinivsi 
+ * // pushing the code to remote repository
  */
 public class Status {
 
@@ -25,8 +26,8 @@ public class Status {
     {
     Scanner in =new Scanner(System.in);
     System.out.println("Enter the user status code (zero,one,two,three) in string");
-    String code = in.next();
-    StausUser t= new StausUser();
+    String  code = in.next();
+    StausUser t = new StausUser();
     t.statusDetail(code); 
     }
     
